@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SpacekBMiniChallenge2Through4.services
 {
-    public class AcceptsTwoNumbers
+    public class AcceptsTwoNumbersServices
     {
         
     }
