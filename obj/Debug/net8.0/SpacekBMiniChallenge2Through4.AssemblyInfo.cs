@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpacekBMiniChallenge2Through4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8919e7e99c9ad9d0fd322c888085387d5473487c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e554ea99030178a2a3d33f6df3c1607eb24e647f")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpacekBMiniChallenge2Through4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpacekBMiniChallenge2Through4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
