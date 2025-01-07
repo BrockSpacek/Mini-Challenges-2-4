@@ -7,9 +7,9 @@ namespace SpacekBMiniChallenge2Through4.services
 {
     public class AcceptsTwoInputsServices
     {
-         public string AcceptsTwoInputs(string name, string time)
+         public string AcceptsTwoInputs(string yourName, string timeYouWokeUp)
         {
-            return $"Hello {name}, You woke up at {time}!";
+            return $"Hello {yourName}, You woke up at {timeYouWokeUp}!";
         }
     }
 }

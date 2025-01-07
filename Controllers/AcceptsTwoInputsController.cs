@@ -15,13 +15,13 @@ namespace SpacekBMiniChallenge2Through4.Controllers
         {
             _acceptsTwoInputsServices = acceptsTwoInputsServices;
         }
-        
+
         [HttpPost]
         [Route("AddTwoInputs")]
 
-         public string AcceptsTwoInputs(string name, string time)
+         public string AcceptsTwoInputs(string yourName, string timeYouWokeUp)
         {
-            return _acceptsTwoInputsServices.AcceptsTwoInputs(name, time
+            return _acceptsTwoInputsServices.AcceptsTwoInputs(yourName, timeYouWokeUp
             );
         }
     }
