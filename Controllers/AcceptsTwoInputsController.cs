@@ -1,15 +1,28 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 using Microsoft.AspNetCore.Mvc;
+using SpacekBMiniChallenge2Through4.services;
 
 namespace SpacekBMiniChallenge2Through4.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     public class AcceptsTwoInputsController : ControllerBase
     {
+
+        private readonly AcceptsTwoInputsServices _acceptsTwoInputsServices;
+
+        public AcceptsTwoInputsController(AcceptsTwoInputsServices acceptsTwoInputsServices)
+        {
+            _acceptsTwoInputsServices = acceptsTwoInputsServices;
+        }
         
+        [HttpPost]
+        [Route("AddTwoInputs")]
+
+         public string AcceptsTwoInputs(string name, string time)
+        {
+            return _acceptsTwoInputsServices.AcceptsTwoInputs(name, time
+            );
+        }
     }
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SpacekBMiniChallenge2Through4.props" />
+</Project>
